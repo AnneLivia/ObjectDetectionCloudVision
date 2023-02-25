@@ -41,7 +41,7 @@ const Painel = () => {
     <CustomCard borderColor='#fff'>
       <Row className='justify-content-center'>
         <Col md={5} className='mb-2'>
-          <h2 className='text-center'>O que tem na minha foto?</h2>
+          <h2 className='text-center'>What's on the picture?</h2>
           <Image
             ref={imgRef}
             id='image'
