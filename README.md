@@ -7,4 +7,4 @@
 ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat&logo=OpenCV&logoColor=white)
 
 Using GCP Cloud Vision API, React.js and OpenCV to detect objects on images.
-All the processing related to the Cloud Vision API is being done using a backend API developed using Node.js With Express. The backend repository can be accessed through [this link](https://github.com/AnneLivia/CloudVisionAPI-Backend) 
+All the processing related to the Cloud Vision API is being done using a backend API developed using Node.js With Express. The backend repository can be accessed through [this link](https://github.com/AnneLivia/CloudVisionAPI-Backend).
