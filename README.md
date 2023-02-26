@@ -1,4 +1,4 @@
-# Landmark Cloud Vision
+# Object Detection using Cloud Vision API
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/AnneLivia/ObjectDetectionCloudVision/blob/main/LICENSE)
 ![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=React&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=JavaScript&logoColor=white)
@@ -6,6 +6,7 @@
 ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat&logo=OpenCV&logoColor=white)
 
 Using GCP Cloud Vision API, React.js and OpenCV to detect objects on images.
+
 All the processing related to the Cloud Vision API is being done using a backend API developed using Node.js With Express. The backend repository can be accessed through [this link](https://github.com/AnneLivia/CloudVisionAPI-Backend).
 
 ### Interface
