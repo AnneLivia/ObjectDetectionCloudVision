@@ -11,4 +11,4 @@ All the processing related to the Cloud Vision API is being done using a backend
 
 ### Interface
 
-![Capturar](https://user-images.githubusercontent.com/31932673/221374239-a35f5440-8a00-4785-84c5-622027a302ed.PNG)
+![Example](https://user-images.githubusercontent.com/31932673/221427627-bd67ec4f-144f-4d5a-b0e7-57333fda9b9b.PNG)
