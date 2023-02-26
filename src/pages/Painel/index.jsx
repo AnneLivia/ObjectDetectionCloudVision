@@ -6,15 +6,18 @@ import axios from '../../service/api.js';
 import { toast } from 'react-toastify';
 
 import { drawRectangles } from '../../utils/drawRectangles.js';
+import CustomSpinner from '../../components/Spinner';
 
 const Painel = () => {
   const imgRef = useRef();
   const canvasRef = useRef();
 
   const [image, setImage] = useState(defaultImage);
+  const [loading, setLoading] = useState(false);
 
   const handleSubmit = async (event) => {
     event.preventDefault();
+    setLoading(true);
     if (event.target.image.files[0]) {
       const formData = new FormData();
       formData.append('image', event.target.image.files[0]);
@@ -33,6 +36,8 @@ const Painel = () => {
         }
         console.error(err);
         toast.error(err.message);
+      } finally {
+        setLoading(false);
       }
     }
   };
@@ -78,10 +83,17 @@ const Painel = () => {
                 variant='dark'
                 type='submit'
               >
-                Localizar
+                Identify
               </Button>
             </InputGroup>
           </Form>
+        </Col>
+      </Row>
+      <Row className='jutify-content-center mt-2'>
+        <Col className='align-self-center'>
+          <div className='text-center'>
+            <CustomSpinner loading={loading} color='#ff6100' />
+          </div>
         </Col>
       </Row>
       <canvas

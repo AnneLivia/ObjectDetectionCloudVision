@@ -14,8 +14,6 @@ const CustomCard = ({
       className={`${hasShadow ? 'shadow' : ''} ${isScrollable ? 'scroll' : ''}`}
       style={{
         borderColor,
-        marginTop: '10%',
-        marginBottom: '10%',
       }}
     >
       {image && (
